@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Sitemap\Contracts;
+namespace Itroteam\Sitemap\Contracts;
 
-use Spatie\Sitemap\Tags\Url;
+use Itroteam\Sitemap\Tags\Url;
 
 interface Sitemapable
 {

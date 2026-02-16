@@ -1,6 +1,6 @@
 <?php
 
-use Spatie\Sitemap\Tags\Alternate;
+use Itroteam\Sitemap\Tags\Alternate;
 
 beforeEach(function () {
     $this->alternate = new Alternate('defaultUrl', 'en');

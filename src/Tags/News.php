@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap\Tags;
+namespace Itroteam\Sitemap\Tags;
 
 use Carbon\Carbon;
 use DateTimeInterface;

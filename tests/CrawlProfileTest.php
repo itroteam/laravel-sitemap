@@ -3,10 +3,10 @@
 use Spatie\Crawler\Crawler;
 use Spatie\Crawler\CrawlProfiles\CrawlInternalUrls;
 use Spatie\Crawler\CrawlProfiles\CrawlSubdomains;
-use Spatie\Sitemap\Crawler\Profile;
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\SitemapGenerator;
-use Spatie\Sitemap\Test\CustomCrawlProfile;
+use Itroteam\Sitemap\Crawler\Profile;
+use Itroteam\Sitemap\Sitemap;
+use Itroteam\Sitemap\SitemapGenerator;
+use Itroteam\Sitemap\Test\CustomCrawlProfile;
 
 beforeEach(function () {
     $this->crawler = $this->createMock(Crawler::class);

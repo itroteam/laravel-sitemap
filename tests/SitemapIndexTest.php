@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Storage;
-use Spatie\Sitemap\SitemapIndex;
-use Spatie\Sitemap\Tags\Sitemap;
+use Itroteam\Sitemap\SitemapIndex;
+use Itroteam\Sitemap\Tags\Sitemap;
 use function Spatie\Snapshots\assertMatchesXmlSnapshot;
 use Symfony\Component\HttpFoundation\Request;
 

@@ -1,8 +1,8 @@
 <?php
 
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\Tags\Url;
-use Spatie\Sitemap\Tags\Video;
+use Itroteam\Sitemap\Sitemap;
+use Itroteam\Sitemap\Tags\Url;
+use Itroteam\Sitemap\Tags\Video;
 
 test('XML has Video tag', function () {
     $expected_xml = '<?xml version="1.0" encoding="UTF-8"?>

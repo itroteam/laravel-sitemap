@@ -1,9 +1,9 @@
 <?php
 
 use Carbon\Carbon;
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\Tags\News;
-use Spatie\Sitemap\Tags\Url;
+use Itroteam\Sitemap\Sitemap;
+use Itroteam\Sitemap\Tags\News;
+use Itroteam\Sitemap\Tags\Url;
 
 test('XML has News tag', function () {
     $publicationDate = Carbon::now();

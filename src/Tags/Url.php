@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap\Tags;
+namespace Itroteam\Sitemap\Tags;
 
 use Carbon\Carbon;
 use DateTimeInterface;
@@ -23,16 +23,16 @@ class Url extends Tag
 
     public ?float $priority = null;
 
-    /** @var \Spatie\Sitemap\Tags\Alternate[] */
+    /** @var \Itroteam\Sitemap\Tags\Alternate[] */
     public array $alternates = [];
 
-    /** @var \Spatie\Sitemap\Tags\Image[] */
+    /** @var \Itroteam\Sitemap\Tags\Image[] */
     public array $images = [];
 
-    /** @var \Spatie\Sitemap\Tags\Video[] */
+    /** @var \Itroteam\Sitemap\Tags\Video[] */
     public array $videos = [];
 
-    /** @var \Spatie\Sitemap\Tags\News[] */
+    /** @var \Itroteam\Sitemap\Tags\News[] */
     public array $news = [];
 
     public static function create(string $url): static

@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Sitemap\\SitemapServiceProvider"
+                "Itroteam\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },

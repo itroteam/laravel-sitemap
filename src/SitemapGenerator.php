@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap;
+namespace Itroteam\Sitemap;
 
 use Closure;
 use GuzzleHttp\Psr7\Uri;
@@ -10,9 +10,9 @@ use Psr\Http\Message\UriInterface;
 use Spatie\Browsershot\Browsershot;
 use Spatie\Crawler\Crawler;
 use Spatie\Crawler\CrawlProfiles\CrawlProfile;
-use Spatie\Sitemap\Crawler\Observer;
-use Spatie\Sitemap\Crawler\Profile;
-use Spatie\Sitemap\Tags\Url;
+use Itroteam\Sitemap\Crawler\Observer;
+use Itroteam\Sitemap\Crawler\Profile;
+use Itroteam\Sitemap\Tags\Url;
 
 class SitemapGenerator
 {

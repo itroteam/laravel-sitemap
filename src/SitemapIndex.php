@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\Sitemap;
+namespace Itroteam\Sitemap;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
-use Spatie\Sitemap\Tags\Sitemap;
-use Spatie\Sitemap\Tags\Tag;
+use Itroteam\Sitemap\Tags\Sitemap;
+use Itroteam\Sitemap\Tags\Tag;
 
 class SitemapIndex implements Responsable, Renderable
 {
-    /** @var \Spatie\Sitemap\Tags\Sitemap[] */
+    /** @var \Itroteam\Sitemap\Tags\Sitemap[] */
     protected array $tags = [];
     protected string $stylesheet = '';
 

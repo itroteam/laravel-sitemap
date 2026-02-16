@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap\Test;
+namespace Itroteam\Sitemap\Test;
 
 use Psr\Http\Message\UriInterface;
 use Spatie\Crawler\CrawlProfiles\CrawlProfile;

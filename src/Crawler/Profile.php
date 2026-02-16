@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap\Crawler;
+namespace Itroteam\Sitemap\Crawler;
 
 use Psr\Http\Message\UriInterface;
 use Spatie\Crawler\CrawlProfiles\CrawlProfile;

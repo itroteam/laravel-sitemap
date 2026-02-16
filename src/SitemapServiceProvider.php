@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Sitemap;
+namespace Itroteam\Sitemap;
 
 use Spatie\Crawler\Crawler;
 use Spatie\LaravelPackageTools\Package;

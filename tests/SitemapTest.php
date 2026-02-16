@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Storage;
-use Spatie\Sitemap\Contracts\Sitemapable;
-use Spatie\Sitemap\Sitemap;
-use Spatie\Sitemap\Tags\Url;
+use Itroteam\Sitemap\Contracts\Sitemapable;
+use Itroteam\Sitemap\Sitemap;
+use Itroteam\Sitemap\Tags\Url;
 use function Spatie\Snapshots\assertMatchesXmlSnapshot;
 use Symfony\Component\HttpFoundation\Request;
 

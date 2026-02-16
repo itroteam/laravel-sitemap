@@ -10,7 +10,7 @@ use Spatie\TemporaryDirectory\TemporaryDirectory;
 |--------------------------------------------------------------------------
 */
 
-uses(\Spatie\Sitemap\Test\TestCase::class)
+uses(\Itroteam\Sitemap\Test\TestCase::class)
     ->beforeEach(function () {
         $this->now = Carbon::create('2016', '1', '1', '0', '0', '0');
 

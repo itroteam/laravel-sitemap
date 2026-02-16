@@ -1,18 +1,18 @@
 <?php
 
-namespace Spatie\Sitemap;
+namespace Itroteam\Sitemap;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
-use Spatie\Sitemap\Contracts\Sitemapable;
-use Spatie\Sitemap\Tags\Tag;
-use Spatie\Sitemap\Tags\Url;
+use Itroteam\Sitemap\Contracts\Sitemapable;
+use Itroteam\Sitemap\Tags\Tag;
+use Itroteam\Sitemap\Tags\Url;
 
 class Sitemap implements Responsable, Renderable
 {
-    /** @var \Spatie\Sitemap\Tags\Url[] */
+    /** @var \Itroteam\Sitemap\Tags\Url[] */
     protected array $tags = [];
     protected string $stylesheet = '';
 
