@@ -1,8 +1,8 @@
 {
-    "name": "spatie/laravel-sitemap",
+    "name": "itroteam/laravel-sitemap",
     "description": "Create and generate sitemaps with ease",
     "keywords": [
-        "spatie",
+        "itroteam",
         "laravel-sitemap"
     ],
     "homepage": "https://github.com/spatie/laravel-sitemap",
@@ -47,12 +47,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Sitemap\\": "src"
+            "Itroteam\\Sitemap\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Sitemap\\Test\\": "tests"
+            "Itroteam\\Sitemap\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
