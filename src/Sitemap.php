@@ -14,10 +14,17 @@ class Sitemap implements Responsable, Renderable
 {
     /** @var \Spatie\Sitemap\Tags\Url[] */
     protected array $tags = [];
+    protected string $stylesheet = '';
 
     public static function create(): static
     {
         return new static();
+    }
+
+    public function setStylsheet(string $stylesheet): static
+    {
+        $this->stylesheet = $stylesheet;
+        return $this;
     }
 
     public function add(string | Url | Sitemapable | iterable $tag): static
@@ -69,9 +76,10 @@ class Sitemap implements Responsable, Renderable
     public function render(): string
     {
         $tags = collect($this->tags)->unique('url')->filter();
+        $stylesheet = $this->stylesheet;
 
         return view('sitemap::sitemap')
-            ->with(compact('tags'))
+            ->with(compact('tags', 'stylesheet'))
             ->render();
     }
 
